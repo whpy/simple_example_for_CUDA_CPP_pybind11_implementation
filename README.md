@@ -16,6 +16,7 @@ This repository is inspired by https://github.com/godweiyang/NN-CUDA-Example. A 
 |setuptools| 65.6.3 |
 |torch| 2.1.1 |
 |ninja | 1.11.1.1 |
+|pybind11 | 2.11.1|
 
 
 # Usage
