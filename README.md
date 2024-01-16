@@ -33,7 +33,7 @@ Suppose that the original file structure is as below:
 ```
 
 ## 1 Compile
-run the following command
+run the following command(no need for su at least under conda environments)
 ```bash
 python3 setup.py install
 ```
