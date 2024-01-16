@@ -1,4 +1,4 @@
-This repository is inspired by https://github.com/godweiyang/NN-CUDA-Example. A very simple example to demostrate how to write an interface between CUDA/C++ and python through the tools provided by pytorch. 
+This repository is mainly refers https://github.com/godweiyang/NN-CUDA-Example. We extract a very simple example from it to demonstrate how to write an interface between CUDA/C++ and python through the tools provided by pytorch. 
 
 # Environment
 ## System
