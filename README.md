@@ -32,7 +32,7 @@ Suppose that the original file structure is as below:
 └── test.py
 ```
 
-## 1 Compile
+## 1. Compile
 run the following command(no need for su at least under conda environments)
 ```bash
 python3 setup.py install
@@ -75,7 +75,7 @@ we hide some details to protect privacy. The files structure would then become:
 └── test.py
 ```
 
-## Test
+## 2. Test
 after compilation, we run:
 ```python
 python3 test.py
@@ -91,3 +91,11 @@ tensor([5., 8., 5., 9.], device='cuda:0')
 tensor([5., 8., 5., 9.], device='cuda:0')
 ```
 we can modify the size of a,b,c to further compare the efficiency of the function.
+
+## 3. Recompile
+After adding some features or modification, we should type following commands to clear the temporary files and rebuild the modules. Then reinstall by pip:
+```shell
+python3 setup.py clean --all
+python3 setup.py build
+pip install .
+```
